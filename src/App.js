@@ -9,7 +9,7 @@ import LoadingBar from 'react-top-loading-bar'
 // Enabling dark light button
 const App =()=>{
  const  pageSize = 8; // default page size
- const apiKey = process.env.REACT_APP_AKM_NEWS
+ const apiKey = "c20d9522fc9449cc9c6f2d1050b4dd24"
   const [progress, setProgress] = useState(0)
 
     return (
