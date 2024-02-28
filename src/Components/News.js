@@ -32,10 +32,11 @@ const News = (props) => {
 
     }
     useEffect(() => {
+      
         document.title = `${capitalizeFirstLetter(props.category)} - AKMNews`;
-        updateNews();
-        //eslint disable next-line
-    })
+        updateNews(); 
+        // eslint-disable-next-line
+    }, [])
 
 
 
