@@ -35,7 +35,7 @@ const News = (props) => {
       
         document.title = `${capitalizeFirstLetter(props.category)} - AKMNews`;
         updateNews(); 
-        // eslint-disable-next-line
+        // eslint-disable-next-line  
     }, [])
 
 
